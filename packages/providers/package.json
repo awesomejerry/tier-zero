@@ -1,0 +1,18 @@
+{
+  "name": "@tier-zero/providers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@tier-zero/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@tier-zero/dataset": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
