@@ -2,6 +2,8 @@
 
 **Fast-and-slow AI support triage.**
 
+**Live demo (mock mode):** [https://awesomejerry.github.io/tier-zero/](https://awesomejerry.github.io/tier-zero/). It is the same heuristic dashboard as `pnpm dev`, running entirely in the browser. No API key and no model calls.
+
 Tier Zero pairs a System One model with a System Two agent on a support inbox. System One answers typed questions in one call: a category, a severity score, and a few calibrated yes/no probabilities. When it is confident and the ticket is not high stakes, the fast path tags the ticket and sends a pre-approved reply. Otherwise a tool-using agent writes the response, and System One checks every tool call and every draft before it runs.
 
 This is a portfolio project by Jerry ([@awesomejerry](https://github.com/awesomejerry)). It is a support-triage demo. An unrelated AI-ops product is also named TierZero. This repository is not that product.
