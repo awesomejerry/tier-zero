@@ -1,0 +1,32 @@
+{
+  "name": "tier-zero",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Tier Zero: fast-and-slow AI support triage. A portfolio project pairing a System One decision model with a System Two agent.",
+  "type": "module",
+  "packageManager": "pnpm@10.33.4",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @tier-zero/web dev",
+    "build": "pnpm --filter @tier-zero/web build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "generate:dataset": "tsx packages/dataset/src/cli.ts",
+    "benchmark": "tsx packages/benchmark/src/cli.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^22.19.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="760" viewBox="0 0 960 760">
+  <rect width="960" height="760" fill="#f7f4ee"/>
+  <text x="24" y="34" fill="#1c211c" font-size="20" font-family="Georgia, serif">Tier Zero mock benchmark</text>
+  <text x="24" y="56" fill="#6d726c" font-size="12" font-family="ui-sans-serif, sans-serif">Confidence threshold on the x-axis. Mock mode. Latencies are simulated and decisions are scripted. This is not a measurement of the OpenAI or TypeSafe APIs.</text>
+  <g font-family="ui-sans-serif, sans-serif">
+    <text x="24" y="94" fill="#1c211c" font-size="14" font-weight="600">Category accuracy</text>
+    <line x1="76" y1="244.0" x2="920" y2="244.0" stroke="#e4e0d6"/>
+      <text x="68" y="248.0" text-anchor="end" fill="#6d726c" font-size="11">83%</text><line x1="76" y1="175.0" x2="920" y2="175.0" stroke="#e4e0d6"/>
+      <text x="68" y="179.0" text-anchor="end" fill="#6d726c" font-size="11">91%</text><line x1="76" y1="106.0" x2="920" y2="106.0" stroke="#e4e0d6"/>
+      <text x="68" y="110.0" text-anchor="end" fill="#6d726c" font-size="11">99%</text><path d="M76.0,230.6 L163.9,230.6 L251.8,230.6 L339.8,201.4 L427.7,139.8 L515.6,139.8 L603.5,119.4 L691.4,119.4 L779.3,119.4 L867.2,119.4 L920.0,119.4" fill="none" stroke="#1f7a4d" stroke-width="2.2" /><path d="M76.0,119.4 L163.9,119.4 L251.8,119.4 L339.8,119.4 L427.7,119.4 L515.6,119.4 L603.5,119.4 L691.4,119.4 L779.3,119.4 L867.2,119.4 L920.0,119.4" fill="none" stroke="#b5762a" stroke-width="2.2" stroke-dasharray="5 4"/><text x="76.0" y="260" text-anchor="middle" fill="#6d726c" font-size="11">0.50</text><text x="498.0" y="260" text-anchor="middle" fill="#6d726c" font-size="11">0.74</text><text x="920.0" y="260" text-anchor="middle" fill="#6d726c" font-size="11">0.98</text><line x1="286" y1="90" x2="302" y2="90" stroke="#1f7a4d" stroke-width="2.2" />
+      <text x="306" y="94" fill="#3c403c" font-size="11">Tier Zero</text><line x1="454" y1="90" x2="470" y2="90" stroke="#b5762a" stroke-width="2.2" stroke-dasharray="5 4"/>
+      <text x="474" y="94" fill="#3c403c" font-size="11">LLM-only baseline</text>
+    <text x="24" y="296" fill="#1c211c" font-size="14" font-weight="600">Latency</text>
+    <line x1="76" y1="456.0" x2="920" y2="456.0" stroke="#e4e0d6"/>
+      <text x="68" y="460.0" text-anchor="end" fill="#6d726c" font-size="11">0ms</text><line x1="76" y1="382.0" x2="920" y2="382.0" stroke="#e4e0d6"/>
+      <text x="68" y="386.0" text-anchor="end" fill="#6d726c" font-size="11">5.0s</text><line x1="76" y1="308.0" x2="920" y2="308.0" stroke="#e4e0d6"/>
+      <text x="68" y="312.0" text-anchor="end" fill="#6d726c" font-size="11">10.1s</text><path d="M76.0,454.0 L163.9,454.0 L251.8,454.0 L339.8,453.9 L427.7,453.8 L515.6,453.8 L603.5,453.6 L691.4,395.6 L779.3,395.6 L867.2,392.4 L920.0,386.7" fill="none" stroke="#1f7a4d" stroke-width="2.2" /><path d="M76.0,349.2 L163.9,349.2 L251.8,349.2 L339.8,347.8 L427.7,333.9 L515.6,333.9 L603.5,329.0 L691.4,329.0 L779.3,329.0 L867.2,329.0 L920.0,323.6" fill="none" stroke="#7d9a62" stroke-width="2.2" /><path d="M76.0,384.7 L163.9,384.7 L251.8,384.7 L339.8,384.7 L427.7,384.7 L515.6,384.7 L603.5,384.7 L691.4,384.7 L779.3,384.7 L867.2,384.7 L920.0,384.7" fill="none" stroke="#b5762a" stroke-width="2.2" stroke-dasharray="5 4"/><text x="76.0" y="472" text-anchor="middle" fill="#6d726c" font-size="11">0.50</text><text x="498.0" y="472" text-anchor="middle" fill="#6d726c" font-size="11">0.74</text><text x="920.0" y="472" text-anchor="middle" fill="#6d726c" font-size="11">0.98</text><line x1="286" y1="292" x2="302" y2="292" stroke="#1f7a4d" stroke-width="2.2" />
+      <text x="306" y="296" fill="#3c403c" font-size="11">Tier Zero p50</text><line x1="454" y1="292" x2="470" y2="292" stroke="#7d9a62" stroke-width="2.2" />
+      <text x="474" y="296" fill="#3c403c" font-size="11">Tier Zero p95</text><line x1="622" y1="292" x2="638" y2="292" stroke="#b5762a" stroke-width="2.2" stroke-dasharray="5 4"/>
+      <text x="642" y="296" fill="#3c403c" font-size="11">Baseline p50</text>
+    <text x="24" y="508" fill="#1c211c" font-size="14" font-weight="600">Cost per 1,000 tickets</text>
+    <line x1="76" y1="658.0" x2="920" y2="658.0" stroke="#e4e0d6"/>
+      <text x="68" y="662.0" text-anchor="end" fill="#6d726c" font-size="11">$0.24</text><line x1="76" y1="589.0" x2="920" y2="589.0" stroke="#e4e0d6"/>
+      <text x="68" y="593.0" text-anchor="end" fill="#6d726c" font-size="11">$3.7</text><line x1="76" y1="520.0" x2="920" y2="520.0" stroke="#e4e0d6"/>
+      <text x="68" y="524.0" text-anchor="end" fill="#6d726c" font-size="11">$7.2</text><path d="M76.0,644.6 L163.9,644.6 L251.8,644.6 L339.8,636.0 L427.7,619.0 L515.6,619.0 L603.5,606.0 L691.4,584.4 L779.3,584.4 L867.2,580.1 L920.0,564.9" fill="none" stroke="#1f7a4d" stroke-width="2.2" /><path d="M76.0,533.4 L163.9,533.4 L251.8,533.4 L339.8,533.4 L427.7,533.4 L515.6,533.4 L603.5,533.4 L691.4,533.4 L779.3,533.4 L867.2,533.4 L920.0,533.4" fill="none" stroke="#b5762a" stroke-width="2.2" stroke-dasharray="5 4"/><text x="76.0" y="674" text-anchor="middle" fill="#6d726c" font-size="11">0.50</text><text x="498.0" y="674" text-anchor="middle" fill="#6d726c" font-size="11">0.74</text><text x="920.0" y="674" text-anchor="middle" fill="#6d726c" font-size="11">0.98</text><line x1="286" y1="504" x2="302" y2="504" stroke="#1f7a4d" stroke-width="2.2" />
+      <text x="306" y="508" fill="#3c403c" font-size="11">Tier Zero</text><line x1="454" y1="504" x2="470" y2="504" stroke="#b5762a" stroke-width="2.2" stroke-dasharray="5 4"/>
+      <text x="474" y="508" fill="#3c403c" font-size="11">LLM-only baseline</text>
+  </g>
+</svg>

@@ -1,0 +1,195 @@
+{
+  "mode": "mock",
+  "simulated": true,
+  "disclaimer": "MOCK / SIMULATED. Latency is drawn from a fixed distribution. Decisions come from the heuristic and the scripted agent, not from gpt-6-luna or gpt-6.2-sol. Do not cite these numbers as API measurements. Re-run with `pnpm benchmark --live` once OPENAI_API_KEY is set.",
+  "seed": 20261119,
+  "tickets": 300,
+  "defaultThreshold": 0.8,
+  "prices": {
+    "decisions": {
+      "model": "gpt-6-luna",
+      "uncachedInputPerMillion": 0.1,
+      "cachedInputPerMillion": 0.01,
+      "cacheWritePerMillion": 0.125,
+      "outputPerMillion": 0
+    },
+    "agent": {
+      "model": "gpt-6.2-sol",
+      "uncachedInputPerMillion": 2,
+      "cachedInputPerMillion": 0.1,
+      "outputPerMillion": 10
+    }
+  },
+  "points": [
+    {
+      "threshold": 0.5,
+      "fastPathShare": 0.9,
+      "tierZeroAccuracy": 0.8467,
+      "tierZeroP50Ms": 138,
+      "tierZeroP95Ms": 7249,
+      "tierZeroCostPerThousandUsd": 0.9078,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.55,
+      "fastPathShare": 0.9,
+      "tierZeroAccuracy": 0.8467,
+      "tierZeroP50Ms": 138,
+      "tierZeroP95Ms": 7249,
+      "tierZeroCostPerThousandUsd": 0.9078,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.6,
+      "fastPathShare": 0.9,
+      "tierZeroAccuracy": 0.8467,
+      "tierZeroP50Ms": 138,
+      "tierZeroP95Ms": 7249,
+      "tierZeroCostPerThousandUsd": 0.9078,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.65,
+      "fastPathShare": 0.8433,
+      "tierZeroAccuracy": 0.88,
+      "tierZeroP50Ms": 141,
+      "tierZeroP95Ms": 7344,
+      "tierZeroCostPerThousandUsd": 1.3432,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.7,
+      "fastPathShare": 0.7333,
+      "tierZeroAccuracy": 0.95,
+      "tierZeroP50Ms": 152,
+      "tierZeroP95Ms": 8289,
+      "tierZeroCostPerThousandUsd": 2.1954,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.75,
+      "fastPathShare": 0.7333,
+      "tierZeroAccuracy": 0.95,
+      "tierZeroP50Ms": 152,
+      "tierZeroP95Ms": 8289,
+      "tierZeroCostPerThousandUsd": 2.1954,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.8,
+      "fastPathShare": 0.6333,
+      "tierZeroAccuracy": 0.9733,
+      "tierZeroP50Ms": 166,
+      "tierZeroP95Ms": 8622,
+      "tierZeroCostPerThousandUsd": 2.8467,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.85,
+      "fastPathShare": 0.4333,
+      "tierZeroAccuracy": 0.9733,
+      "tierZeroP50Ms": 4099,
+      "tierZeroP95Ms": 8622,
+      "tierZeroCostPerThousandUsd": 3.93,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.9,
+      "fastPathShare": 0.4333,
+      "tierZeroAccuracy": 0.9733,
+      "tierZeroP50Ms": 4099,
+      "tierZeroP95Ms": 8622,
+      "tierZeroCostPerThousandUsd": 3.93,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.95,
+      "fastPathShare": 0.3933,
+      "tierZeroAccuracy": 0.9733,
+      "tierZeroP50Ms": 4316,
+      "tierZeroP95Ms": 8622,
+      "tierZeroCostPerThousandUsd": 4.1446,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    },
+    {
+      "threshold": 0.98,
+      "fastPathShare": 0.26,
+      "tierZeroAccuracy": 0.9733,
+      "tierZeroP50Ms": 4706,
+      "tierZeroP95Ms": 8988,
+      "tierZeroCostPerThousandUsd": 4.9111,
+      "baselineAccuracy": 0.9733,
+      "baselineP50Ms": 4843,
+      "baselineP95Ms": 9655,
+      "baselineCostPerThousandUsd": 6.4917
+    }
+  ],
+  "atDefault": {
+    "tierZero": {
+      "simulated": true,
+      "ticketCount": 300,
+      "fastPathCount": 190,
+      "slowPathCount": 110,
+      "blockedCount": 22,
+      "categoryAccuracy": 0.9733,
+      "highStakesRecall": 1,
+      "highStakesPrecision": 1,
+      "severityMae": 0.0621,
+      "latencyMs": {
+        "p50": 166,
+        "p95": 8622,
+        "mean": 2483
+      },
+      "totalCostUsd": 0.854018,
+      "costPerThousandUsd": 2.8467
+    },
+    "llmOnly": {
+      "simulated": true,
+      "ticketCount": 300,
+      "fastPathCount": 0,
+      "slowPathCount": 300,
+      "blockedCount": 0,
+      "categoryAccuracy": 0.9733,
+      "highStakesRecall": 1,
+      "highStakesPrecision": 1,
+      "severityMae": 0.0621,
+      "latencyMs": {
+        "p50": 4843,
+        "p95": 9655,
+        "mean": 5371
+      },
+      "totalCostUsd": 1.9475,
+      "costPerThousandUsd": 6.4917
+    }
+  }
+}
